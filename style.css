@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nft-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nft-item {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.nft-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.nft-item a {
+    display: block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.nft-item a:hover {
+    text-decoration: underline;
+}
